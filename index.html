@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <!-- Link Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- ************** -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+    <!-- ************** -->
+    
+    <!-- Link custom CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Header section -->
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse show" id="navbarDark">
+            <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contack</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex hi">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- Main content section -->
+    <main>
+      <section class="text-center container bg-img overflow-hidden p-2">
+        <h1>Welcome to my Portfolio</h1>
+       <div class="row row-col-2 mt-2">
+        <div class="col-sm-12 col-lg-6 p-3"> 
+          <h2>Hi! I Am <span class="display-6 text-white">Bikash Roy</span></h2>
+          <h1>I am a <strong class="text-primary text-uppercase">Profesional freelencer</strong> <br>
+        and <strong class="text-secondary text-uppercase">  Fullstack web devloper</strong> </h1>
+      <button class="btn bg-warning mt-2">HERE ME</button>
+      </div>
+        <div class="col-sm-12 col-lg-6 m-l-5 ">
+          <b class="display-6 border-bottom">About</b>
+          <p class=" p-5 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, voluptatum autem! Qui illo natus eligendi mollitia quisquam ab minima beatae, exercitationem non, voluptas enim illum autem similique maiores, odit saepe?Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dolores quia illo facere animi tenetur blanditiis obcaecati beatae nisi ipsum, facilis in est dolorem error voluptatibus laudantium et doloribus aspernatur.</p>
+        </div>
+       </div>
+      </section>
+
+      <!-- Showcase your projects here -->
+      <section id="project">
+        <h2 class="container text-center border-bottom mt-5">My Projects</h2>
+        
+        <div class="swiper container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper  m-auto">
+            <!-- Slides -->
+            <div class="swiper-slide"><img class="img-fluid" src="https://www.shutterstock.com/image-vector/isometric-concept-young-people-engaged-600w-1423639097.jpg" alt=""></div>
+            <div class="swiper-slide"><img class="img-fluid" src="https://www.shutterstock.com/image-vector/content-marketing-video-blog-strategy-600w-1228205008.jpg" alt=""></div>
+            <div class="swiper-slide"><img  class="img-fluid"src="https://www.shutterstock.com/image-vector/horizontal-web-banner-template-patient-600w-1181447872.jpg" alt=""></div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </section>
+      <!-- About Me Section -->
+      <section class="container mt-5">
+        <h2 class="text-center">About Me</h2>
+        <div><img    class=" about-img mx-auto   " src="assets/img/about.png"  alt=""></div>
+        <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, quos laborum! Expedita suscipit placeat, dicta tenetur quasi quae ea hic a amet adipisci temporibus itaque ipsam deleniti laboriosam laudantium nisi.</p>
+      </section >
+        <!-- About Me Section End -->
+
+
+
+      
+
+        <section class="container">
+      <!-- Form Section Start -->
+      <form>
+        <fieldset  class="p-5">  <b class="send">Send Your Feeling</b> 
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Your First Name</label>
+          <input required type="text" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Your Last Name</label>
+          <input required type="text" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input required type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+       
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Send Message</label>
+          <textarea required class="form-control" name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button  type="submit" class="btn btn-primary">Submit</button>
+      </fieldset>
+      </form>
+
+
+      <!-- Form Section End -->
+  
+      </section>
+
+    </main>
+
+
+    <!-- Footer section -->
+    <footer class="bg-dark text-white text-center footer" >
+      <p >&copy; 2023 My Portfolio. All Rights Reserved By Bikash Roy.</p>
+    </footer>
+    <!-- Link Bootstrap JS and custom JS -->
+
+
+
+   
+     
+
+          
+
+        </div>
+
+      </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- **************************** -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- **************************** -->
+    <script src="script.js"></script>
+  </body>
+</html>

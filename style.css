@@ -1,0 +1,39 @@
+.bg-img{
+    background-image: url("https://img.freepik.com/free-photo/young-man-student-with-notebooks-showing-thumb-up-approval-smiling-satisfied-blue-studio-background_1258-65597.jpg?w=740&t=st=1676640241~exp=1676640841~hmac=849714759a5c945f1dadafbe536e484196c6b896cebc0352d98e1ccb4619cc33");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.swiper {
+    min-width: 450px;
+    max-width: 570px;
+    height: 300px;
+  }
+  .about-img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: block;
+   
+  }
+  .send{
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+    
+
+  }
+
+
+  
+  
+
+  
+ 
+  
+
+
+  
